@@ -16,6 +16,7 @@ public class Ejemplo05 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
         System.out.println("----------------");
         System.out.println(10 / 3);
         
@@ -30,14 +31,14 @@ public class Ejemplo05 {
         System.out.println(10 % 3 );
         
         System.out.println("----------------");
-        System.out.println(Math.pow(10, 2));
+        System.out.println(Math.pow(10, 2)); //el metodo pow me permite elevar a una potencia cierto valor dado nombrado a y su pontencia nombrada b
         
         System.out.println("----------------");
         System.out.println(Math.sqrt(16));
         
         double m = Math.sqrt(16);
         System.out.println(m);
-        
+       
     }
 
 }
